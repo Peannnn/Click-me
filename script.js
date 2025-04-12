@@ -7,7 +7,7 @@ function askQuestion() {
   function handleAnswer(answer) {
     const responseText = document.getElementById('responseText');
     if (answer === 'Yes') {
-      responseText.innerText = "Send me a pic of u rn";
+      responseText.innerText = "Show me that beautiful face, please?";
     } else {
       responseText.innerText = "I hope one day you change your mind....";
     }

@@ -7,7 +7,7 @@ function askQuestion() {
   function handleAnswer(answer) {
     const responseText = document.getElementById('responseText');
     if (answer === 'Yes') {
-      responseText.innerText = "Show me that beautiful face, please?";
+      responseText.innerText = "Now let me see the smile that made me fall for you";
     } else {
       responseText.innerText = "Are you sure? 🥺";
     }

@@ -9,7 +9,7 @@ function askQuestion() {
     if (answer === 'Yes') {
       responseText.innerText = "Send me a pic of u rn";
     } else {
-      responseText.innerText = "I hope one day I can....";
+      responseText.innerText = "I hope one day you change your mind....";
     }
     responseText.style.display = 'block';
   }

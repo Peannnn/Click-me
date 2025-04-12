@@ -9,7 +9,7 @@ function askQuestion() {
     if (answer === 'Yes') {
       responseText.innerText = "Show me that beautiful face, please?";
     } else {
-      responseText.innerText = "Are you sure?";
+      responseText.innerText = "Are you sure? 🥺";
     }
     responseText.style.display = 'block';
   }
